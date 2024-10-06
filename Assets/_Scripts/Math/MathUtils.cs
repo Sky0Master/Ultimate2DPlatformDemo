@@ -1,8 +1,9 @@
 using UnityEngine;
 
+
+namespace VinoUtility{
 public static class MathUtils
 {
-
 
     public static float SmoothStep(float from,float to,float t)
     {
@@ -18,7 +19,7 @@ public static class MathUtils
         float v2 = 1 - (1-t) *(1-t);
         return Vector3.Lerp(from,to, Mathf.Lerp(v1,v2,t));
     }
-    
+
     //需要每帧插值计算平滑跟随时使用
     public static Vector3 SmoothFollow(Vector3 current,Vector3 target,float k,float frameTime)
     {
@@ -61,4 +62,5 @@ public static class MathUtils
     {
         return  st + RotateVector2((ed-st) * Random.Range(-1f,1f),Random.Range(-angleLimit,angleLimit));
     }
+}
 }

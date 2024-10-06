@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+namespace VinoUtility{
 public class TransformExt : MonoBehaviour
 {
     public static List<Transform> GetActiveChildren(Transform node)
@@ -35,6 +36,5 @@ public class TransformExt : MonoBehaviour
         }
         return children;
     } 
-
-
+}
 }

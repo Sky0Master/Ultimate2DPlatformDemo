@@ -1,6 +1,8 @@
 using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine;
+using VinoUtility;
+
 public class CameraFollow : MonoBehaviour
 {
     public Transform Target;

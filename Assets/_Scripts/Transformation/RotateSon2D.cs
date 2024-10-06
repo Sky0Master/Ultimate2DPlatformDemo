@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using VinoUtility;
 
 public class RotateSon2D : MonoBehaviour
 {
@@ -19,8 +20,6 @@ public class RotateSon2D : MonoBehaviour
 
     public float radius = 2f;
     
-    
-
     void Start()
     {
         if(isMakeSonUniform)
