@@ -1,0 +1,2820 @@
+fileFormatVersion: 2
+guid: 7503c952c6648344c8d947a178b7bf0f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fumiko_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 224
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c576e4859855524b9df6f2673b6682c
+      internalID: -1189740115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_1
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 225
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c9a69ed369444243b86784b3802b9e6
+      internalID: 396069435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_2
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 224
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b75b28e861e8e34a88df2b5baecee07
+      internalID: -452440039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_3
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 225
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec5df46e497b414bbf05cb52f919f0e
+      internalID: 767237997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_4
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 226
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39fa3a53d14c03a458a2ca0f4947757a
+      internalID: 834568495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_5
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 225
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae12d8a2f9e517440bc9e7dded17a1f5
+      internalID: 578286859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_6
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 224
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cdc5a7110b7bc649aa440c0642b21ec
+      internalID: -891202787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_7
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 225
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83865390014e26640bf8cbe1c0ed80ac
+      internalID: 1465514164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_8
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 227
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7834cf8a2ea1e8243a41238da7369e28
+      internalID: 1003170804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_9
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 225
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0612935aa4337b84f912c9e09e1db2e9
+      internalID: 878894960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_10
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 225
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735f829768819ec47a5efed3e9d73522
+      internalID: 1844403048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_11
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 225
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd49225418e6351418a44b81a637b4f8
+      internalID: 1571781809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_12
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 226
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a0f6208cbe615f41833214303c54084
+      internalID: 950087071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_13
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 225
+        width: 60
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea719758768b37640a87773091c5f16f
+      internalID: 365356192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_14
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 192
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6b96a327529df645b276da56cc8bcab
+      internalID: -1528715185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_15
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 193
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 601a434b964ae3f40a545a7659b35cff
+      internalID: 502128906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_16
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 193
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e869993f5e3208d4cb9f431967d9ee10
+      internalID: 1040455161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_17
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 194
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd4595f630df5a84ab25d4cc802632dd
+      internalID: -1200983978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_18
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 192
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b74f9f5e8bd4b4b9913e22d624243f
+      internalID: 1143805927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_19
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 194
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac3b881c1847694d99a91fba18ab902
+      internalID: 1938953969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_20
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 192
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b933fb9694bfbbc479ebb834a8a5e465
+      internalID: -1098662145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_21
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 192
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d39e8b5bd37e95e499a4b5ee1fc2dd67
+      internalID: 1227917592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6d432006931e914496ef3bf06cf8fdb
+      internalID: -1548259356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_23
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 193
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0677724eaf0f1164cbe3a8b524bcab29
+      internalID: 590915924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_24
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 193
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca8515000c0ee449be3dfe2e40ff195
+      internalID: 1315041271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_25
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 193
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eaa50014bd1f6a43bfe2d459d64c89e
+      internalID: -1689656289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_26
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 193
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 755bb995e67824e469fa88641f77d602
+      internalID: -389554790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_27
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 194
+        width: 35
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e55c51a180d318f4f967aa521c75249c
+      internalID: -931399020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_28
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 192
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e615fe9e3853634fb2b07da2b837b77
+      internalID: 1275420945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_29
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 193
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a4bb0a828cc844598fd06d0b65fb72
+      internalID: 1873655520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_30
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 160
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d62ad9e140956cf4797e154385476e16
+      internalID: -391059458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_31
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 161
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1feefd92be009c4f857d0cee18727df
+      internalID: 138074289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_32
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 160
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca4f724e83f320148ac2299814f74215
+      internalID: -1002482899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_33
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 161
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d613a22d84bb6dc428968a908e692676
+      internalID: -998733717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_34
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 162
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14843533f77103040b8e4175225dc34f
+      internalID: -213177776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_35
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 161
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a3adf3fc6e45a74097cc5bde10884ef
+      internalID: -1727650006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_36
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 160
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13ca9009238e3a244a52430859b30fcb
+      internalID: 487748718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_37
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 160
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab357bce0d402b6418aa5d0232b8faf2
+      internalID: -326872356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_38
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0479caa4131878e41b85bf7b5b02d179
+      internalID: 623270825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_39
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 161
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef5d4a51ac32a744fbb839554ad39487
+      internalID: 1552316547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_40
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 161
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38aad9958c0f5154298eca4d39e32e7b
+      internalID: 19582062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_41
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 161
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cedbaf64522cced499760052f43fdf5e
+      internalID: -967900893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_42
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 161
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf80aa7866b98db42b42a05155f588f2
+      internalID: -1606711138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_43
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 162
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 765c7a4eb3a1a2549ab7555068e17177
+      internalID: -1810253805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_44
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 160
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f031f23861fff0640be55b9cc2925506
+      internalID: -1153059519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_45
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 161
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ebcbc95608c904ea1bbf8a589c6b60
+      internalID: 1940425642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_46
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 129
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04013a7f620fd564bb12dcb9d3cd912b
+      internalID: -1537186004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_47
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 129
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb1960bdb98ac44fa3947db106f5258
+      internalID: 314074100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_48
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 128
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a02f12e51de964699bc664ba45c309
+      internalID: 1427047145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_49
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 130
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f24d83e1fce4014dac1451527e02015
+      internalID: 663535951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_50
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 128
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81858485d56dc0448b99cd0082ce3827
+      internalID: 652156141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_51
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 130
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 379e074b7c4382148a2d85fff884a628
+      internalID: -231990249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_52
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 128
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b1706a56203984eadc8af16a7129fc
+      internalID: 1518191623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_53
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 128
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a03f12f601924de4f84131312a866e1e
+      internalID: 963004547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_54
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 764b6ef98a2c6354ba3fdb7d349c2f14
+      internalID: 1792971631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_55
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 129
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f4678b850040e64a8ac88c9637d2239
+      internalID: 1329048220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_56
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 129
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b41f45255f755f548880b0ce7ae74f90
+      internalID: -1426624747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_57
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 129
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c8a0dea3cd1d041a5bb7e8b94a27de
+      internalID: -1322901778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_58
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 129
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c4ba815c7af1a4593fd0becf14cfc4
+      internalID: -278846530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_59
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 133
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a21b8231bec420499f3dbb3235ec681
+      internalID: -1853771837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_60
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 96
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69a2305e820be6b42ba418a5b3502d14
+      internalID: 1381949991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_61
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 129
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3fb304c31f60ad4583cda7a7864fd39
+      internalID: -1771035290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_62
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ee28b8f74dddfc49938a407d211ac26
+      internalID: 752787647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_63
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 96
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c77bc28b88064b5429ad23a649a6c2a9
+      internalID: 749041850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_64
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 97
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c953b3f90f8d9e43aee42b4a9e405ae
+      internalID: -413865340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_65
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 96
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e17021de522a12e409a40381bd0cbc22
+      internalID: -2085145808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_66
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 97
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb484302d65c9d340bcc0709f1a7fc17
+      internalID: 992920077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_67
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 96
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0291777ffcc6d504391d2543da01edcf
+      internalID: 808149853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_68
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 97
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d4aa250765d6ff44a6790fea0daea61
+      internalID: 1799284270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_69
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 97
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c705e003713014f9c570c037140112
+      internalID: 1574419352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_70
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 97
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c16a24f94b5c7454c898c07c0c87632b
+      internalID: 1988653604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_71
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 97
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6a341135e646b46bacf36411de5062
+      internalID: -493138633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_72
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 96
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b57363c4e01b7ec439b959f8aafb94f1
+      internalID: -1813668644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_73
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 97
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 791c626a645159d44a4183b035612a8c
+      internalID: 1775993114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_74
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 96
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dbec0b8557aad344b0ab10357dddacf
+      internalID: 1595784985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_75
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 97
+        width: 40
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e516ebf50f0bf0498bb47a4b5665693
+      internalID: -904032200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_76
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 65
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7540cc7164b987443af1782cbf7d0af2
+      internalID: -446066919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_77
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 65
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd6b131e7e54c3c4083a2f2746b34422
+      internalID: 1797079783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_78
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 65
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f68676cfade0448aaa25a33c2277bf
+      internalID: -2007499900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_79
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 65
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e01afae553f2a4b83eba825f83de87
+      internalID: -1885893071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_80
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 65
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79bb943f9b763f743bb550f8634cc73a
+      internalID: -529402957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_81
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 64
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a1955f198554a04f9d3caca6dd41198
+      internalID: 842332675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_82
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 65
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d51fcb9b07b599146bced77b52b15e1e
+      internalID: -1903998718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_83
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 65
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e25b62b28842ca44945559c7ef7a2f2
+      internalID: 443325588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_84
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 65
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c15f1c02f539734f9c51d350a592e37
+      internalID: 255601175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_85
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 65
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee795a62a1d26c42a50651f6948673c
+      internalID: -1042933500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_86
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 64
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 657819a7252b34e499bc8328fc2e6243
+      internalID: -825626610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_87
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 65
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a03c24ad6c80d4444b881f4954661a1e
+      internalID: -1920916859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_88
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 65
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ba0eb0f88af27e47ba66cfdcb89f69b
+      internalID: -273371019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_89
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 65
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee63ccef2fefab4987451ea12a7bf44
+      internalID: 1474699399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_90
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 65
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6842e16b1d2338c4d8b8026fd680e2ac
+      internalID: 1263324011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_91
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 65
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f9a8c3ffe3248743af5fb8a328afac2
+      internalID: -2060715221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_92
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 32
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 660929245be6e3f468834fc802b58762
+      internalID: 1655088037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_93
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 32
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 595932c554fcbdf4ea20f5b7ad025bf6
+      internalID: 1622297912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_94
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 32
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adbdefcb3902fb341ba8951cf3c2573c
+      internalID: 1017932467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_95
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 32
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd6863dbd7454c647a4e13dd3d1d18b5
+      internalID: 778687594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_96
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 32
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6dbfb69dbdd70a44979c2180b13fc3e
+      internalID: 2117952986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_97
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 32
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a18ccedfc90dfb46b2f093a67795893
+      internalID: -1065642461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_98
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 33
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d5b9f7109a0204c9bcb4efe55e36ba
+      internalID: 448314772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_99
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 33
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa271746bf0c5884091f5b50cb4126cd
+      internalID: 1338839469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_100
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 33
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c21f8c6f4cbb69f4eb40328084497799
+      internalID: 1298672806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_101
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 33
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73596f62565ab7243a66ae575ed5af39
+      internalID: 1359478292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_102
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 32
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab282830839f1ad41bd568fae7c87735
+      internalID: 1163815465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_103
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 33
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07342c7bcdfd61b4c8d52bf66253adb2
+      internalID: 626431510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_104
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 32
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be0b3fd7fa1aa214ea0fd4c3ada53b9c
+      internalID: 1048129100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_105
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 33
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2bb70dff2b52514bb9a998fb9ed56d8
+      internalID: -2025509472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_106
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 33
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a15bcd117909bb74e9cc17d41a18e869
+      internalID: -1241164878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_107
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 32
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb23f397861e4e429a8bc4273f79ede
+      internalID: 279839010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_108
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a627ff4958cf2bf47bc2d4339d19e8ac
+      internalID: 1248670917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_109
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17aa695b2cbeec24d93238bee089ee26
+      internalID: -875221224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_110
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d933ed6d3d41ce40a598294f5f4754a
+      internalID: -1253406512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_111
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf6407bf5a0e9c74c9a83cbbbeead786
+      internalID: -477604579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_112
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04cd9df6141739644a75b4d6b657779c
+      internalID: -1821025538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_113
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 1
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f38620a6f13e14da18364e6a30f348
+      internalID: 355204753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_114
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 397f41170a407bb4fa7ef43c8c1f08a1
+      internalID: -509682244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_115
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 1
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19eec0a5f2cc12b478a4163bc3f2a5c9
+      internalID: 2146413525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_116
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a2efd51012cedc488b8e847f2b9195a
+      internalID: -2072637981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_117
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 1
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c090ece0e40b8b348843147bdb4c145e
+      internalID: -1245590521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_118
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 0
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b3fa06228a2694383ddd0354beca50
+      internalID: -1943861492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_119
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce46809d8167aa4e9ca093ea0dae7c7
+      internalID: -1376567298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_120
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 2
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1834bfecd05bc79438b9f110a8db9acf
+      internalID: 10042797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_121
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1efcbf0dbb653f0478f86a08577a73e3
+      internalID: -992680208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fumiko_122
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c167dd7c453fb4b9fa02c05b94bc4f
+      internalID: -1465627684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Fumiko_0: -1189740115
+      Fumiko_1: 396069435
+      Fumiko_10: 1844403048
+      Fumiko_100: 1298672806
+      Fumiko_101: 1359478292
+      Fumiko_102: 1163815465
+      Fumiko_103: 626431510
+      Fumiko_104: 1048129100
+      Fumiko_105: -2025509472
+      Fumiko_106: -1241164878
+      Fumiko_107: 279839010
+      Fumiko_108: 1248670917
+      Fumiko_109: -875221224
+      Fumiko_11: 1571781809
+      Fumiko_110: -1253406512
+      Fumiko_111: -477604579
+      Fumiko_112: -1821025538
+      Fumiko_113: 355204753
+      Fumiko_114: -509682244
+      Fumiko_115: 2146413525
+      Fumiko_116: -2072637981
+      Fumiko_117: -1245590521
+      Fumiko_118: -1943861492
+      Fumiko_119: -1376567298
+      Fumiko_12: 950087071
+      Fumiko_120: 10042797
+      Fumiko_121: -992680208
+      Fumiko_122: -1465627684
+      Fumiko_13: 365356192
+      Fumiko_14: -1528715185
+      Fumiko_15: 502128906
+      Fumiko_16: 1040455161
+      Fumiko_17: -1200983978
+      Fumiko_18: 1143805927
+      Fumiko_19: 1938953969
+      Fumiko_2: -452440039
+      Fumiko_20: -1098662145
+      Fumiko_21: 1227917592
+      Fumiko_22: -1548259356
+      Fumiko_23: 590915924
+      Fumiko_24: 1315041271
+      Fumiko_25: -1689656289
+      Fumiko_26: -389554790
+      Fumiko_27: -931399020
+      Fumiko_28: 1275420945
+      Fumiko_29: 1873655520
+      Fumiko_3: 767237997
+      Fumiko_30: -391059458
+      Fumiko_31: 138074289
+      Fumiko_32: -1002482899
+      Fumiko_33: -998733717
+      Fumiko_34: -213177776
+      Fumiko_35: -1727650006
+      Fumiko_36: 487748718
+      Fumiko_37: -326872356
+      Fumiko_38: 623270825
+      Fumiko_39: 1552316547
+      Fumiko_4: 834568495
+      Fumiko_40: 19582062
+      Fumiko_41: -967900893
+      Fumiko_42: -1606711138
+      Fumiko_43: -1810253805
+      Fumiko_44: -1153059519
+      Fumiko_45: 1940425642
+      Fumiko_46: -1537186004
+      Fumiko_47: 314074100
+      Fumiko_48: 1427047145
+      Fumiko_49: 663535951
+      Fumiko_5: 578286859
+      Fumiko_50: 652156141
+      Fumiko_51: -231990249
+      Fumiko_52: 1518191623
+      Fumiko_53: 963004547
+      Fumiko_54: 1792971631
+      Fumiko_55: 1329048220
+      Fumiko_56: -1426624747
+      Fumiko_57: -1322901778
+      Fumiko_58: -278846530
+      Fumiko_59: -1853771837
+      Fumiko_6: -891202787
+      Fumiko_60: 1381949991
+      Fumiko_61: -1771035290
+      Fumiko_62: 752787647
+      Fumiko_63: 749041850
+      Fumiko_64: -413865340
+      Fumiko_65: -2085145808
+      Fumiko_66: 992920077
+      Fumiko_67: 808149853
+      Fumiko_68: 1799284270
+      Fumiko_69: 1574419352
+      Fumiko_7: 1465514164
+      Fumiko_70: 1988653604
+      Fumiko_71: -493138633
+      Fumiko_72: -1813668644
+      Fumiko_73: 1775993114
+      Fumiko_74: 1595784985
+      Fumiko_75: -904032200
+      Fumiko_76: -446066919
+      Fumiko_77: 1797079783
+      Fumiko_78: -2007499900
+      Fumiko_79: -1885893071
+      Fumiko_8: 1003170804
+      Fumiko_80: -529402957
+      Fumiko_81: 842332675
+      Fumiko_82: -1903998718
+      Fumiko_83: 443325588
+      Fumiko_84: 255601175
+      Fumiko_85: -1042933500
+      Fumiko_86: -825626610
+      Fumiko_87: -1920916859
+      Fumiko_88: -273371019
+      Fumiko_89: 1474699399
+      Fumiko_9: 878894960
+      Fumiko_90: 1263324011
+      Fumiko_91: -2060715221
+      Fumiko_92: 1655088037
+      Fumiko_93: 1622297912
+      Fumiko_94: 1017932467
+      Fumiko_95: 778687594
+      Fumiko_96: 2117952986
+      Fumiko_97: -1065642461
+      Fumiko_98: 448314772
+      Fumiko_99: 1338839469
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

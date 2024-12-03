@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37f386f38b0da3540b17da7c50d41993, type: 3}
+  m_Name: PortalShoot
+  m_EditorClassIdentifier: 
+  speed: 20
+  coolTime: 1
+  projectilePrefab: {fileID: 2600465715644993626, guid: 817829753f5415a4e90688571afca032, type: 3}
+  useMouseShoot: 1
