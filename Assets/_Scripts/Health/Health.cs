@@ -97,7 +97,7 @@ namespace VinoUtility.Game
         }
         private void Awake() {
             OnDamaged += (damage, damageSource) => {
-                GetComponent<Animator>().SetTrigger("hit");
+                GetComponent<Animator>()?.SetTrigger("hit");
             };
         }
     }

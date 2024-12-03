@@ -916,6 +916,8 @@ GameObject:
   - component: {fileID: 2114087057}
   - component: {fileID: 2114087061}
   - component: {fileID: 2114087062}
+  - component: {fileID: 2114087064}
+  - component: {fileID: 2114087063}
   m_Layer: 0
   m_Name: PlayerTopdown
   m_TagString: Player
@@ -1026,6 +1028,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MaxHealth: 100
   CriticalHealthRatio: 0.3
+--- !u!114 &2114087063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2114087056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0dc8919192e94949ab98bfdadac560a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canMove: 1
+  useMouseMove: 0
+--- !u!114 &2114087064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2114087056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 278db1540f4f5f5488377359ecf09baa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _moveSpeed: 7
 --- !u!114 &1462628381026712493
 MonoBehaviour:
   m_ObjectHideFlags: 0
