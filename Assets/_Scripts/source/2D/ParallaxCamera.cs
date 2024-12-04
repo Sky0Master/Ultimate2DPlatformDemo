@@ -8,7 +8,8 @@ namespace VinoUtility{
 public struct ParallaxLayer
 {
     public Transform transform;
-    public float parallaxFactor;
+    public float xFactor;
+    public float yFactor;
 }
 
 public class ParallaxCamera : MonoBehaviour
@@ -27,7 +28,7 @@ public class ParallaxCamera : MonoBehaviour
         var moveOffset = new Vector2(transform.position.x - lastPos.x,transform.position.y-lastPos.y);
         foreach(var layer in parallaxLayers)
         {
-            var offset = moveOffset * layer.parallaxFactor;
+            var offset = new Vector2(moveOffset.x * layer.xFactor, moveOffset.y * layer.yFactor);
             layer.transform.position = new Vector3(layer.transform.position.x + offset.x, layer.transform.position.y + offset.y, layer.transform.position.z);
         }
         lastPos = transform.position;

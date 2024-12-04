@@ -250,8 +250,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80bbe7036f1cf564599eb7be1d7d36e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
-  lifeTime: 7
+  speed: 2
+  lifeTime: 20
   isFacingPlayer: 1
   playerTag: Player
 --- !u!50 &3922178401918839037
