@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
+using EZCameraShake;
 
 public class DeadZone : MonoBehaviour
 {
@@ -13,6 +14,7 @@ public class DeadZone : MonoBehaviour
     [Header("Camera Shake")]
     public float shakeTime = 0.1f;
     public float shakeStrength = 1f;
+    public float shakeRoughness = 10f;
     public void Respawn()
     {
         playerObj.transform.position = respawnPoint.position;
@@ -23,8 +25,7 @@ public class DeadZone : MonoBehaviour
         if(other.gameObject.tag == "Player")
         {
             playerSpr.material.DOFloat(1f,"_DissolveAmount",dissovleTime);
-            Camera.main.DOShakePosition(shakeTime,shakeStrength);
-            Camera.main.DOShakeRotation(shakeTime,shakeStrength);
+            CameraShaker.Instance.ShakeOnce(shakeStrength,shakeRoughness,0,shakeTime);
             Invoke("Respawn", dissovleTime);
         }
     }
