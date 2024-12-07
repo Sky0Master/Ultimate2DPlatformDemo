@@ -30,7 +30,7 @@ public class DeadZone : MonoBehaviour
         {
             if(playerSpr == null) playerSpr = other.GetComponentInChildren<SpriteRenderer>();
             playerSpr.material.DOFloat(1f,"_DissolveAmount",dissovleTime);
-            CameraShaker.Instance.ShakeOnce(shakeStrength,shakeRoughness,0,shakeTime);
+            //CameraShaker.Instance.ShakeOnce(shakeStrength,shakeRoughness,0,shakeTime);
             if(playerObj == null) playerObj = other.gameObject;
             Invoke("Respawn", dissovleTime);
         }
