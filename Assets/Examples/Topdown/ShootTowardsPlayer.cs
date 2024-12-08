@@ -18,7 +18,7 @@ public class ShootTowardsPlayer : MonoBehaviour
         _startTime = Time.time;
         player = GameObject.FindWithTag(playerTag)?.transform;
         if(player == null)
-        return;
+            return;
         var dir = (player.position - transform.position).normalized;
         GetComponent<Rigidbody2D>().velocity = dir * speed;
         if(isFacingPlayer)
