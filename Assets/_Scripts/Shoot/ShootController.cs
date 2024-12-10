@@ -28,20 +28,21 @@ public class ShootController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(shootKey))
+        if(Input.GetKeyDown(shootKey) && projectilePrefab != null)
         {
             shoot.SetProjectilePrefab(projectilePrefab);
-            var p = shoot.Shoot(transform.right);
+            var p = shoot.Shoot( transform.localScale.x >0 ? transform.right : -transform.right );
         }
-        if(Input.GetKeyDown(shootKey2))
+        if(Input.GetKeyDown(shootKey2) && projectilePrefab2 != null)
         {
             shoot.SetProjectilePrefab(projectilePrefab2);
-            var p = shoot.Shoot(transform.right);
+            var p = shoot.Shoot(transform.localScale.x >0 ? transform.right : -transform.right );
         }
-        if(Input.GetKeyDown(shootKey3))
+        if(Input.GetKeyDown(shootKey3) && projectilePrefab3 != null)
         {
+
             shoot.SetProjectilePrefab(projectilePrefab3);
-            var p = shoot.Shoot(transform.right);
+            var p = shoot.Shoot(transform.localScale.x >0 ? transform.right : -transform.right);
         }
     }
 }

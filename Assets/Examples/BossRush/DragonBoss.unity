@@ -587,6 +587,7 @@ GameObject:
   - component: {fileID: 344889999}
   - component: {fileID: 344889998}
   - component: {fileID: 344889997}
+  - component: {fileID: 344890002}
   m_Layer: 0
   m_Name: Dragon
   m_TagString: Untagged
@@ -712,6 +713,20 @@ Transform:
   - {fileID: 274861079}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &344890002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 344889996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c30b133062f40a040ad04f15bed86088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 10
+  criticalHealthRatio: 0.3
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -878,7 +893,7 @@ MonoBehaviour:
     yFactor: 0.6
   - transform: {fileID: 925992491}
     xFactor: 0.5
-    yFactor: 0.5
+    yFactor: 0.3
 --- !u!114 &519420034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13005,7 +13020,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.6300001, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 7223434109487808642}
@@ -13167,20 +13182,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 10
   criticalHealthRatio: 0.3
---- !u!114 &3248755436523028069
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6485749082801463821}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 833530535e55cad4da59696878354176, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radius: 0.63
-  pivot: {fileID: 7223434109487808642}
 --- !u!114 &3489588682434664942
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13422,8 +13423,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1082023429951884248}
-  - component: {fileID: 3248755436523028069}
   - component: {fileID: 3489588682434664942}
+  - component: {fileID: 6485749082801463822}
+  - component: {fileID: 6485749082801463823}
   m_Layer: 0
   m_Name: Gun
   m_TagString: Untagged
@@ -13431,6 +13433,38 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &6485749082801463822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6485749082801463821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08284c50af8cb7b40b90ada39dbbf322, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shootKey: 106
+  projectilePrefab: {fileID: 2600465715644993626, guid: 90ced4036ec14734c9d33c8eb7260602, type: 3}
+  shootKey2: 107
+  projectilePrefab2: {fileID: 4467953769324326377, guid: 9b5491c3d607a9746abfbb269e8878c4, type: 3}
+  shootKey3: 108
+  projectilePrefab3: {fileID: 0}
+  shootRight: 1
+  shoot: {fileID: 0}
+--- !u!114 &6485749082801463823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6485749082801463821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3ef0313a69825a46a4bd9e3e12ad69f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &6522036219416440491
 Transform:
   m_ObjectHideFlags: 0
