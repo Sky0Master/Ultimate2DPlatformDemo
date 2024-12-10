@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace VinoUtility.Game
+namespace VinoUtility.Gameplay
 {
     public class WorldspaceHealthBar : MonoBehaviour
     {

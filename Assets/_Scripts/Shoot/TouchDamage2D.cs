@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace VinoUtility.Game
+namespace VinoUtility.Gameplay
 {
 public class TouchDamage2D : MonoBehaviour
 {

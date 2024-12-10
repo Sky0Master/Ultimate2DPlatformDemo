@@ -12,9 +12,11 @@ public class ShootProjectile2D : MonoBehaviour
     public float shootSpeed = 50f;
     // Start is called before the first frame update
     public float shootCoolTime = 0.5f; 
-    public bool useMouseShoot;
-
     public Vector2 fireOffset;
+    
+    [Header("Easy Use Settings")]
+    public bool useMouseShoot;
+    public KeyCode shootKey;
 
     private float _lastShootTime;
 
@@ -43,28 +45,30 @@ public class ShootProjectile2D : MonoBehaviour
     }
     void Update()
     {
-        if(useMouseShoot && Input.GetMouseButtonDown(0))
+        if(useMouseShoot && Input.GetKeyDown(shootKey))
         {
             Shoot(transform.GetMouseVector2().normalized);    
         }
     }
+    
     #if UNITY_EDITOR
     private void OnDrawGizmosSelected() {
         Gizmos.color = Color.red;
         Gizmos.DrawSphere(GetFirePos(), 0.05f);
     }
-
     private void OnValidate() {
         if(shootData!= null) {
             SetShootData(shootData);
         }
     }
     #endif
+
     public void SetShootData(ShootModule2D data)
     {
         this.projectilePrefab = data.projectilePrefab;
         this.shootSpeed = data.speed;
         this.shootCoolTime = data.coolTime;
         this.useMouseShoot = data.useMouseShoot;
+        this.shootKey = data.shootKey;
     }
 }

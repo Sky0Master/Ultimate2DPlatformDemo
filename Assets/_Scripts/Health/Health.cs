@@ -1,43 +1,44 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.Events;
 
-namespace VinoUtility.Game
+namespace VinoUtility.Gameplay
 {
     public class Health : MonoBehaviour
     {
-        [Tooltip("Maximum amount of health")] public float MaxHealth = 10f;
+        public float maxHealth = 10f;
 
         [Tooltip("Health ratio at which the critical health vignette starts appearing")]
-        public float CriticalHealthRatio = 0.3f;
-
+        public float criticalHealthRatio = 0.3f;
         public UnityAction<float, GameObject> OnDamaged;
         public UnityAction<float> OnHealed;
         public UnityAction OnDie;
+        public List<IHandleDamage> damageHandlers = new List<IHandleDamage>();
+        
+        public float currentHealth { get; set; }
+        public bool invincible { get; set; }
+        public bool CanHeal() => currentHealth < maxHealth;
+        public float GetRatio() => currentHealth / maxHealth;
+        public bool IsCritical() => (GetRatio() <= criticalHealthRatio);
 
-        public float CurrentHealth { get; set; }
-        public bool Invincible { get; set; }
-        public bool CanPickup() => CurrentHealth < MaxHealth;
-
-        public float GetRatio() => CurrentHealth / MaxHealth;
-        public bool IsCritical() => (GetRatio() <= CriticalHealthRatio);
-
-        bool m_IsDead;
+        bool _isDead;
 
         void Start()
         {
-            CurrentHealth = MaxHealth;
-            Invincible = false;
+            currentHealth = maxHealth;
+            invincible = false;
             OnDie += () => Destroy(gameObject);
         }
 
         public void Heal(float healAmount)
         {
-            float healthBefore = CurrentHealth;
-            CurrentHealth += healAmount;
-            CurrentHealth = Mathf.Clamp(CurrentHealth, 0f, MaxHealth);
+            float healthBefore = currentHealth;
+            currentHealth += healAmount;
+            currentHealth = Mathf.Clamp(currentHealth, 0f, maxHealth);
 
             // call OnHeal action
-            float trueHealAmount = CurrentHealth - healthBefore;
+            float trueHealAmount = currentHealth - healthBefore;
             if (trueHealAmount > 0f)
             {
                 OnHealed?.Invoke(trueHealAmount);
@@ -46,15 +47,21 @@ namespace VinoUtility.Game
 
         public void TakeDamage(float damage, GameObject damageSource)
         {
-            if (Invincible)
+            if (invincible)
                 return;
             
-            float healthBefore = CurrentHealth;
-            CurrentHealth -= damage;
-            CurrentHealth = Mathf.Clamp(CurrentHealth, 0f, MaxHealth);
+            //calculate final damage
+            foreach (var damageHandler in damageHandlers)
+            {
+                damage = damageHandler.CalculateDamage(damage);
+            }
+            
+            float healthBefore = currentHealth;
+            currentHealth -= damage;
+            currentHealth = Mathf.Clamp(currentHealth, 0f, maxHealth);
 
             // call OnDamage action
-            float trueDamageAmount = healthBefore - CurrentHealth;
+            float trueDamageAmount = healthBefore - currentHealth;
             if (trueDamageAmount > 0f)
             {
                 OnDamaged?.Invoke(trueDamageAmount, damageSource);
@@ -65,23 +72,23 @@ namespace VinoUtility.Game
 
         public void Kill()
         {
-            CurrentHealth = 0f;
+            currentHealth = 0f;
 
             // call OnDamage action
-            OnDamaged?.Invoke(MaxHealth, null);
+            OnDamaged?.Invoke(maxHealth, null);
 
             HandleDeath();
         }
 
         void HandleDeath()
         {
-            if (m_IsDead)
+            if (_isDead)
                 return;
 
             // call OnDie action
-            if (CurrentHealth <= 0f)
+            if (currentHealth <= 0f)
             {
-                m_IsDead = true;
+                _isDead = true;
                 OnDie?.Invoke();
                 Destroy(gameObject);
             }
@@ -89,11 +96,13 @@ namespace VinoUtility.Game
 
         //Test
         private void Update() {
+            #if UNITY_EDITOR
             if(Input.GetKeyDown(KeyCode.F1))
             {
                 Debug.Log("Take Damage");
                 TakeDamage(5 ,null);
             }
+            #endif
         }
         private void Awake() {
             OnDamaged += (damage, damageSource) => {

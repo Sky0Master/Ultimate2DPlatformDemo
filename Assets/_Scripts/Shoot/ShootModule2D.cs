@@ -9,4 +9,5 @@ public class ShootModule2D : ScriptableObject
     public float coolTime;
     public GameObject projectilePrefab;
     public bool useMouseShoot;
+    public KeyCode shootKey = KeyCode.Mouse0;
 }

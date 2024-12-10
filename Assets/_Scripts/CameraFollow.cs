@@ -83,8 +83,7 @@ public class CameraFollow : MonoBehaviour
     {
         _isFollow = false;
     }
-    private void LateUpdate() {
-        
+    private void Update() {
         if(Target && _isFollow)
         {
             //Legacy

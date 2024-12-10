@@ -39,6 +39,7 @@ public class RotateSon2D : MonoBehaviour
             var x = transform.position.x + Mathf.Cos(angleRad) * radius;
             var y = transform.position.y + Mathf.Sin(angleRad) * radius;
             transList[i].position = new Vector3(x,y,0); 
+            transList[i].right = (transList[i].position - transform.position).normalized;
         }
     }
 
