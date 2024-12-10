@@ -63,6 +63,11 @@ public class ShootProjectile2D : MonoBehaviour
     }
     #endif
 
+    public void SetProjectilePrefab(GameObject prefab)
+    {
+        projectilePrefab = prefab;
+    }
+    
     public void SetShootData(ShootModule2D data)
     {
         this.projectilePrefab = data.projectilePrefab;
