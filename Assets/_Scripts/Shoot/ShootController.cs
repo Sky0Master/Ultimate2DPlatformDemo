@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-
+namespace VinoUtility.Gameplay{
 public class ShootController : MonoBehaviour
 {
 
@@ -24,7 +24,6 @@ public class ShootController : MonoBehaviour
         if (shoot == null)
             shoot = GetComponent<ShootProjectile2D>();
     }
-
     // Update is called once per frame
     void Update()
     {
@@ -44,5 +43,6 @@ public class ShootController : MonoBehaviour
             shoot.SetProjectilePrefab(projectilePrefab3);
             var p = shoot.Shoot(transform.localScale.x >0 ? transform.right : -transform.right);
         }
+    }
     }
 }

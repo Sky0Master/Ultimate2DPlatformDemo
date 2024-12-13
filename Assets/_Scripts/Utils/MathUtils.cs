@@ -5,6 +5,13 @@ namespace VinoUtility{
 public static class MathUtils
 {
 
+    public static Vector2 HeartCurve(float radius, float t)
+    {
+        t *= 2 * Mathf.PI;
+        var x = 16 * Mathf.Pow(Mathf.Sin(t), 3);
+        var y = 13 * Mathf.Cos(t) - 5 * Mathf.Cos(2 * t) - 2 * Mathf.Cos(3 * t) - Mathf.Cos(4 * t);
+        return new Vector2(x, y);
+    }
     public static float SmoothStep(float from,float to,float t)
     {
         t = Mathf.Clamp01(t);

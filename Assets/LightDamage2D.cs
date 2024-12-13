@@ -4,6 +4,8 @@ using Unity.VisualScripting;
 using UnityEngine;
 using VinoUtility.Gameplay;
 
+namespace VinoUtility.Gameplay
+{
 public class LightDamage2D : MonoBehaviour
 {
     public float damagePerSecond = 1f;
@@ -25,7 +27,7 @@ public class LightDamage2D : MonoBehaviour
         for(int i = 0; i < rayCount; i++)
         {
             var dir = new Vector2(Mathf.Cos(detectAngle * i), Mathf.Sin(detectAngle * i));
-            var hitInfo = Physics2D.Raycast(transform.position, dir, radius);
+            var hitInfo = Physics2D.Raycast(transform.position, dir, radius, LayerMask.GetMask("Default"));
             if(!hitColliders.Contains(hitInfo.collider) && hitInfo.collider != null && hitInfo.collider.TryGetComponent<Health>(out var health))
             {
                 health.TakeDamage(damagePerSecond * Time.deltaTime, gameObject);
@@ -33,4 +35,5 @@ public class LightDamage2D : MonoBehaviour
             }
         }
     }
+}
 }
