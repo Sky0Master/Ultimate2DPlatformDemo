@@ -16,7 +16,7 @@ public class ShootProjectile2D : MonoBehaviour
     
     [Header("Easy Use Settings")]
     public bool useMouseShoot;
-    public KeyCode shootKey;
+    public KeyCode shootKey = KeyCode.Mouse0;
 
     private float _lastShootTime;
 

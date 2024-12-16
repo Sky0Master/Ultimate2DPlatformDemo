@@ -11,6 +11,8 @@ public class RotateTowardsMouse : MonoBehaviour
         if (pivot == null) {
             pivot = transform.parent;
         }
+        if(pivot == null)
+            return;
         transform.position = pivot.position + Vector3.right * radius;
     }
     #endif

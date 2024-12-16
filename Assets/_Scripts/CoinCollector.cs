@@ -1,17 +1,29 @@
+using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using VinoUtility;
+using UnityEngine.UI;
 
 public class CoinCollector : MonoBehaviour
 {
-    public int curPoint = 0;
-    public float pickRadius = 1.1f;
+    public Dictionary<string, int> scoreDict = new Dictionary<string, int>();
+
+    [Header("Text Display")]
+    public bool textDisplay = true;
     public TextMeshProUGUI coinText;
+
+    [Header("Bar Display")]
+    public List<Image> barList;
+    
     public void UpdateCoinNum()
     {
-        if (coinText != null)
+        if (textDisplay && coinText != null)
         {
-            coinText.text = "x " + curPoint.ToString();
+            string str = "";
+            foreach(var pair in scoreDict)
+            {
+                str += string.Format("{0} : {1}\n", pair.Key, pair.Value);
+            }
+            coinText.text = str;
         }
     }
     
@@ -19,7 +31,9 @@ public class CoinCollector : MonoBehaviour
         var coin = other.GetComponent<Coin>();
         if(coin == null)
             return;
-        curPoint += coin.value;
+        if(!scoreDict.ContainsKey(coin.coinType))
+            scoreDict[coin.coinType] = 0;
+        scoreDict[coin.coinType] += coin.value;
         coin.OnCollected();
         OnCollect(coin.gameObject);
     }

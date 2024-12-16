@@ -14,17 +14,21 @@ public class DragonController : MonoBehaviour
     public float flySpeedY = 2f;
     public DragonState dragonState;
 
+    bool _skill1;
+
     [HideInInspector]
     public float xInput;
     [HideInInspector]
     public float yInput;
     
-    private BoxCollider2D _collider;
+    public BoxCollider2D _collider;
+    [Header("Skill")]
+    [Space(5)]
+    public GameObject skill1Go;
     void Start()
     {
         _animator = GetComponentInChildren<Animator>();
         _rig = GetComponent<Rigidbody2D>();
-        _collider = GetComponent<BoxCollider2D>();
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
     }
@@ -45,7 +49,7 @@ public class DragonController : MonoBehaviour
         _collider.enabled = false;
         _animator.SetBool("air",true);
         _rig.gravityScale = 0.1f;
-        
+        skill1Go.SetActive(_skill1);
         if(Input.GetKeyUp(KeyCode.Mouse1))
         {
             dragonState = DragonState.Ground;
@@ -58,6 +62,9 @@ public class DragonController : MonoBehaviour
     {
         xInput = Input.GetAxisRaw("Mouse X");
         yInput = Input.GetAxisRaw("Mouse Y");
+        
+        _skill1 = dragonState == DragonState.Fly && Input.GetMouseButton(0);
+
         if(Mathf.Abs(xInput) < 0.05f)
             _animator.SetBool("xmove",false);
         else

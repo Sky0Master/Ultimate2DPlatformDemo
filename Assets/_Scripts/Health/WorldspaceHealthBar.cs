@@ -17,7 +17,7 @@ namespace VinoUtility.Gameplay
         [Tooltip("Whether the health bar is visible when at full health or not")]
         public bool HideFullHealthBar = true;
 
-        void Update()
+        void LateUpdate()
         {
             // update health bar value
             HealthBarImage.fillAmount = health.GetRatio();

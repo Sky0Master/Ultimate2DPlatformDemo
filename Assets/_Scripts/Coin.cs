@@ -5,6 +5,7 @@ using UnityEngine;
 public class Coin : MonoBehaviour
 {
     public int value = 1;
+    public string coinType = "Coin";
 
     public virtual void OnCollected()
     {

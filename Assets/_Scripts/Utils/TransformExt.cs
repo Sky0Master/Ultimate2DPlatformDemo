@@ -42,6 +42,8 @@ public static class TransformExt
         var pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         return (Vector2)pos - (Vector2)invoker.position;
     }
+
+    #if UNITY_EDITOR
     public static void DestroyAllChildrenEditor(this Transform invoker)
     {
         var pa = invoker;
@@ -51,6 +53,9 @@ public static class TransformExt
            Undo.DestroyObjectImmediate(child.gameObject);
         }
     }
+    #endif
+
+
     public static void MakeChildrenInLine(this Transform invoker, float dist = 1f)
     {
         var pa = invoker;

@@ -12,15 +12,14 @@ namespace Vivian
         public string levelName;
         
         [HideInInspector]
-        public string sceneName;
-        public SceneAsset sceneAsset;
         public int score1Required;
         public int score2Required;
         public string score1Name;
         public string score2Name;
+        public string sceneName;
         
-
         #if UNITY_EDITOR
+        public SceneAsset sceneAsset;
         private void OnValidate() {
             if(sceneAsset != null)
                 sceneName = sceneAsset.name;

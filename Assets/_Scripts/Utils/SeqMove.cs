@@ -28,7 +28,7 @@ public class SeqMove : MonoBehaviour
         }
     }
 
-    void Update()
+    void FixedUpdate()
     {
         if(Vector3.Distance(transform.position, wayPoints[curIndex].position) < 0.1f)
         {

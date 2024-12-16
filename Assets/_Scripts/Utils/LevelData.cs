@@ -13,12 +13,14 @@ namespace VinoUtility
         
         [HideInInspector]
         public string sceneName;
-        public SceneAsset sceneAsset;
         public int scoreToWin;
 
+        #if UNITY_EDITOR
+        public SceneAsset sceneAsset;
         private void OnValidate() {
             if(sceneAsset != null)
                 sceneName = sceneAsset.name;
         }
+        #endif
     }
 }

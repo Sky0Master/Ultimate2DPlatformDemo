@@ -97,11 +97,11 @@ namespace VinoUtility.Gameplay
         //Test
         private void Update() {
             #if UNITY_EDITOR
-            if(Input.GetKeyDown(KeyCode.F1))
-            {
-                Debug.Log("Take Damage");
-                TakeDamage(5 ,null);
-            }
+            // if(Input.GetKeyDown(KeyCode.F1))
+            // {
+            //     Debug.Log("Take Damage");
+            //     TakeDamage(5 ,null);
+            // }
             #endif
         }
         private void Awake() {
