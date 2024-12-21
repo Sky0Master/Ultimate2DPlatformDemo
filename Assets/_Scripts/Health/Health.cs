@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 namespace VinoUtility.Gameplay
 {
@@ -91,6 +92,7 @@ namespace VinoUtility.Gameplay
                 _isDead = true;
                 OnDie?.Invoke();
                 Destroy(gameObject);
+
             }
         }
 
@@ -107,6 +109,10 @@ namespace VinoUtility.Gameplay
         private void Awake() {
             OnDamaged += (damage, damageSource) => {
                 //GetComponent<Animator>()?.SetTrigger("hit");
+            };
+            OnDie += () => {
+                string currentSceneName = SceneManager.GetActiveScene().name;
+                SceneManager.LoadScene(currentSceneName);
             };
         }
     }

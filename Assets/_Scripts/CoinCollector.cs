@@ -5,7 +5,9 @@ using UnityEngine.UI;
 
 public class CoinCollector : MonoBehaviour
 {
-    public Dictionary<string, int> scoreDict = new Dictionary<string, int>();
+    public static int curPoint = 0;
+    
+    public static Dictionary<string, int> scoreDict = new Dictionary<string, int>();
 
     [Header("Text Display")]
     public bool textDisplay = true;

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AreaChatTrigger : MonoBehaviour
 {
-    GameObject chatGo;
+    public GameObject chatGo;
     private void OnTriggerEnter2D(Collider2D other) {
         if(other.gameObject.tag == "Player"){
             chatGo?.SetActive(true);

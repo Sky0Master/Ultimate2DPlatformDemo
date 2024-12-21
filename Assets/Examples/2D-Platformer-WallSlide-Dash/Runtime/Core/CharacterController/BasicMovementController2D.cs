@@ -389,7 +389,8 @@ namespace DYP
         public void InputMovement(Vector2 axis)
         {
             // Update input buffer
-            m_InputBuffer.Input = new Vector2(axis.x, axis.y);
+            //m_InputBuffer.Input = new Vector2(axis.x, axis.y);
+            m_InputBuffer.Input = new Vector2(1, axis.y);
         }
 
         public void PressJump(bool value)
