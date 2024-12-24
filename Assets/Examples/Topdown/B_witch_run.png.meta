@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a5a7b5108f7a4864c9f1b0e249fe50e0
+guid: 850f31f2ebff42d4e99d17ec6dd0066b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,7 +97,49 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: B_witch_idle_0
+      name: B_witch_run_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a436645f7dbd2af48a6c9569a0bed4a8
+      internalID: -685101201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B_witch_run_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c82538320dbf75542b8c98dbcebaef17
+      internalID: 1643804410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B_witch_run_2
       rect:
         serializedVersion: 2
         x: 0
@@ -111,14 +153,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69900c23d00481c4885e0f27f420c346
-      internalID: 2061872060
+      spriteID: a8a044996685d86469d4173fbe76aa3d
+      internalID: 1873461361
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: B_witch_idle_1
+      name: B_witch_run_3
       rect:
         serializedVersion: 2
         x: 0
@@ -132,14 +174,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50eaeb1705a5c90488007ee300863f24
-      internalID: -2072679727
+      spriteID: cf5dc2f926eefec40ad6e4cd5e44277c
+      internalID: 1352764699
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: B_witch_idle_2
+      name: B_witch_run_4
       rect:
         serializedVersion: 2
         x: 0
@@ -153,14 +195,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50c28a4ece935c7459e1b79445218e51
-      internalID: -709856776
+      spriteID: 43701159bba2a9a43bfd31d72ae14c26
+      internalID: -1395331966
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: B_witch_idle_3
+      name: B_witch_run_5
       rect:
         serializedVersion: 2
         x: 0
@@ -174,14 +216,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e09214fe0918d44c896fc57f18e83b1
-      internalID: -54444056
+      spriteID: 1eadd3b79e5cf6643bc1a605a634ed00
+      internalID: -1895029455
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: B_witch_idle_4
+      name: B_witch_run_6
       rect:
         serializedVersion: 2
         x: 0
@@ -195,14 +237,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88d0edc637b063a4c9608fcbd8426989
-      internalID: 1621571818
+      spriteID: 56e503003d9df4b4ebecaf700262a750
+      internalID: -1481767228
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: B_witch_idle_5
+      name: B_witch_run_7
       rect:
         serializedVersion: 2
         x: 0
@@ -216,8 +258,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6750c779c60380341813878766613395
-      internalID: -452665847
+      spriteID: 520da984b36b2a54f90f05e71ec8c078
+      internalID: -1533032760
       vertices: []
       indices: 
       edges: []
@@ -233,12 +275,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      B_witch_idle_0: 2061872060
-      B_witch_idle_1: -2072679727
-      B_witch_idle_2: -709856776
-      B_witch_idle_3: -54444056
-      B_witch_idle_4: 1621571818
-      B_witch_idle_5: -452665847
+      B_witch_run_0: -685101201
+      B_witch_run_1: 1643804410
+      B_witch_run_2: 1873461361
+      B_witch_run_3: 1352764699
+      B_witch_run_4: -1395331966
+      B_witch_run_5: -1895029455
+      B_witch_run_6: -1481767228
+      B_witch_run_7: -1533032760
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

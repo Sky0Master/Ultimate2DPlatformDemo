@@ -111,8 +111,11 @@ namespace VinoUtility.Gameplay
                 //GetComponent<Animator>()?.SetTrigger("hit");
             };
             OnDie += () => {
-                string currentSceneName = SceneManager.GetActiveScene().name;
-                SceneManager.LoadScene(currentSceneName);
+                if(gameObject.tag == "Player")
+                {                   
+                    string currentSceneName = SceneManager.GetActiveScene().name;
+                    SceneManager.LoadScene(currentSceneName);
+                }
             };
         }
     }

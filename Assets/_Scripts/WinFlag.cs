@@ -15,9 +15,9 @@ public class WinFlag : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other) {
         if(other.gameObject.tag == "Player")
         {
-            if(CoinCollector.scoreDict.ContainsKey(firstGoalName) && CoinCollector.scoreDict.ContainsKey(secondGoalName))
+            if(CoinCollector.BlackBoard.ContainsKey(firstGoalName) && CoinCollector.BlackBoard.ContainsKey(secondGoalName))
             {
-                if(CoinCollector.scoreDict[firstGoalName] >= firstGoal && CoinCollector.scoreDict[secondGoalName] >= secondGoal)
+                if(CoinCollector.BlackBoard[firstGoalName] >= firstGoal && CoinCollector.BlackBoard[secondGoalName] >= secondGoal)
                     winUI.SetActive(true);
             }
             else

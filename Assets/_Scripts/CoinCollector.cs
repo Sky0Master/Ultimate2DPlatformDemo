@@ -1,41 +1,46 @@
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class CoinCollector : MonoBehaviour
 {
     public static int curPoint = 0;
     
-    public static Dictionary<string, int> scoreDict = new Dictionary<string, int>();
+    public static Dictionary<string, int> BlackBoard = new Dictionary<string, int>();
 
     [Header("Text Display")]
     public bool textDisplay = true;
     public TextMeshProUGUI coinText;
 
     [Header("Bar Display")]
-    public List<Image> barList;
+    public bool barDisplay = true;
     
     public void UpdateCoinNum()
     {
         if (textDisplay && coinText != null)
         {
             string str = "";
-            foreach(var pair in scoreDict)
+            foreach(var pair in BlackBoard)
             {
                 str += string.Format("{0} : {1}\n", pair.Key, pair.Value);
             }
             coinText.text = str;
         }
+        if(barDisplay)
+        {
+            foreach(var pair in BlackBoard)
+            {
+                UIShowValue.Blackboard[pair.Key] = pair.Value;
+            }
+        }
     }
-    
     private void OnTriggerEnter2D(Collider2D other) {
         var coin = other.GetComponent<Coin>();
         if(coin == null)
             return;
-        if(!scoreDict.ContainsKey(coin.coinType))
-            scoreDict[coin.coinType] = 0;
-        scoreDict[coin.coinType] += coin.value;
+        if(!BlackBoard.ContainsKey(coin.coinType))
+            BlackBoard[coin.coinType] = 0;
+        BlackBoard[coin.coinType] += coin.value;
         coin.OnCollected();
         OnCollect(coin.gameObject);
     }
@@ -50,10 +55,7 @@ public class CoinCollector : MonoBehaviour
     // [Header("Win Condition")]
     // public int winPoint = 10;
     // public GameObject uiWin;
-    
-    private void Update() {
-        
-    }
+
 
     // private void OnDrawGizmos() {
     //     Gizmos.color = Color.red;

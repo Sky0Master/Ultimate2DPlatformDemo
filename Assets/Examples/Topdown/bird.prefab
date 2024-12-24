@@ -16,7 +16,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5676691391753891347
 Transform:
   m_ObjectHideFlags: 0
@@ -214,9 +214,10 @@ GameObject:
   - component: {fileID: 3922178401918839037}
   - component: {fileID: 7868017731372349485}
   - component: {fileID: 2224059208095130975}
+  - component: {fileID: 3900057994558987255}
   m_Layer: 0
   m_Name: bird
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -295,8 +296,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 5
   destroyAfterTouch: 1
-  exceptTags: []
+  exceptTags:
+  - Enemy
   damageSource: {fileID: 6530629359662569179}
+  enableContinuousDamage: 0
+  damagePerSecond: 1
 --- !u!61 &2224059208095130975
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -342,3 +346,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &3900057994558987255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6530629359662569179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c30b133062f40a040ad04f15bed86088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 5
+  criticalHealthRatio: 0.3

@@ -1,5 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
+using System;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
@@ -11,10 +10,11 @@ public class UIImageSwitch : MonoBehaviour, IPointerClickHandler
     int _currentIndex = 0;
     public Image img;
 
-    
-    [Header("End Event")]
+
+    [Header("End Jump Level")]
     public bool endJumpLevel;
     public string levelName;
+    public Action OnEnd;
     public void OnPointerClick(PointerEventData eventData)
     {
         if(_currentIndex < sprites.Length - 1)
@@ -23,6 +23,7 @@ public class UIImageSwitch : MonoBehaviour, IPointerClickHandler
             SetImage();
         }
         else{
+            OnEnd?.Invoke();
             img.enabled = false;
             if(endJumpLevel)
             {

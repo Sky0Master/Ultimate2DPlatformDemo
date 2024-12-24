@@ -480,7 +480,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 2
-  destroyAfterTouch: 1
+  destroyAfterTouch: 0
   exceptTags: []
   damageSource: {fileID: 0}
   enableContinuousDamage: 0

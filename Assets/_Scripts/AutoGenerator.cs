@@ -5,10 +5,8 @@ using VinoUtility;
 public class AutoGenerator : MonoBehaviour
 {
     public GameObject[] prefabs;
-    
     public float interval = 1f;
     public bool isRandom;
-    
     public bool isRunning;
     
     public bool asSon = true;
@@ -17,17 +15,6 @@ public class AutoGenerator : MonoBehaviour
     [Header("Position")]
     public bool randomOffset;
     public Vector2 range;
-
-    #if UNITY_EDITOR
-    private void OnDrawGizmos() {
-        if(randomOffset)
-        {
-            Gizmos.color = Color.white;
-            Gizmos.DrawWireCube(transform.position, range);
-        }
-    }
-    #endif
-
 
     int _index = 0;
     
@@ -58,10 +45,8 @@ public class AutoGenerator : MonoBehaviour
                 UnityEngine.Random.Range(-range.y, range.y),
                 0);
         }
-
         _index = (_index + 1) % prefabs.Length;
         onGenerate?.Invoke(obj);
-
     }
     void Update()
     {
@@ -79,4 +64,17 @@ public class AutoGenerator : MonoBehaviour
             //GetComponent<RotateSon2D>().MakeUniform(transform.GetActiveChildren());
         };
     }
+
+    
+    #if UNITY_EDITOR
+    private void OnDrawGizmos() {
+        if(randomOffset)
+        {
+            Gizmos.color = Color.white;
+            Gizmos.DrawWireCube(transform.position, range);
+        }
+    }
+    #endif
+
+
 }
