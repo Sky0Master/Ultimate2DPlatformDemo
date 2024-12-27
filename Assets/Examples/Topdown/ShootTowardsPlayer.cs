@@ -10,7 +10,6 @@ public class ShootTowardsPlayer : MonoBehaviour
     public bool isFacingPlayer = true;
     public string playerTag = "Player";
     float _startTime;
-    // Start is called before the first frame update
     
     Transform player;
     void Start()
@@ -27,7 +26,6 @@ public class ShootTowardsPlayer : MonoBehaviour
         }
 
     }
-    // Update is called once per frame
     void Update()
     {
         if(Time.time - _startTime > lifeTime)

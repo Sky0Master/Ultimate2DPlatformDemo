@@ -20,7 +20,7 @@ public class SpriteEffect : MonoBehaviour
         Sprite grayscaleSprite = Sprite.Create(tex, _spr.sprite.rect, _spr.sprite.pivot, _spr.sprite.pixelsPerUnit);
         grayscaleSprite.name = "Grayscale";
         _spr.sprite = grayscaleSprite;
-
+        
         var pixelArray = tex.GetPixels();
         Color[] newPixelArray = new Color[_spr.sprite.texture.width * _spr.sprite.texture.height];
 
@@ -32,6 +32,7 @@ public class SpriteEffect : MonoBehaviour
         }
         tex.SetPixels(newPixelArray);
         tex.Apply();
+        
         Debug.Log("Grayscale effect applied");
     }
     // Start is called before the first frame update
